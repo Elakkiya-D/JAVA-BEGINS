@@ -4,23 +4,29 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Random random=new Random();
-        //Scanner scan = new Scanner(System.in);
-//        System.out.println("any random number:");
-//        int y=scan.nextInt();
+        //Unary operator
+        //unary plus
+        int a=+1;
+        //unary minus
+        int b=-a;
 
-        int x=random.nextInt();
-        double y= random.nextDouble();
-        float a=random.nextFloat();
-        String z=random.toString();
-        long b=random.nextLong();
-        boolean c=random.nextBoolean();
-        System.out.println(y);
-        System.out.println(x);
-        System.out.println(z);
+        a++;
+        ++a;
+        b++;
+        ++b;
         System.out.println(a);
         System.out.println(b);
-        System.out.println(c);
+        System.out.println(a++ + b++);
+         System.out.println(++a + --b);
+        b--;
+        --b;
+        --a;
+        a--;
+        System.out.println(a);
+        System.out.println(b);
+
+
+
 
 
 
