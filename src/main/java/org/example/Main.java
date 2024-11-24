@@ -18,6 +18,7 @@ public class Main {
         System.out.println(results);
         int result= (int) (Math.random()*100);
         System.out.println(result);
+
         System.out.println(Math.sqrt(c));
 
         //min,max,random,round,sqrt
