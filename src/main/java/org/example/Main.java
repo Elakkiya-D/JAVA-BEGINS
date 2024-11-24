@@ -10,6 +10,7 @@ public class Main {
 //54=5+4=9
         System.out.println((a/10)+(a%10));
         System.out.println(a/b);
+        System.out.println(a%b);
 
 
 
