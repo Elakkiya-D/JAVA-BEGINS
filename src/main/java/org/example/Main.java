@@ -1,16 +1,23 @@
 package org.example;
+import java.lang.Math;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//convert lower to upper
-        Scanner scan=new Scanner(System.in);
-        System.out.println("Enter a lower case letter");
-        char lower=scan.next().charAt(0);
-        // char lower='b';
-        char upper =(char)(lower-32);
-        System.out.println("upper:"+upper);
+        //math class
+        double a=36.898;
+        double b=789.8899;
+        System.out.println(Math.max(a,b));
+        double z=Math.min(a,b);
+        System.out.println(z);
+        int c=-6874;
+        double w=Math.abs(c);
+        System.out.println(w);
+        double results =Math.random();
+        System.out.println(results);
+        int result= (int) (Math.random()*100);
+        System.out.println(result);
 
 
     }
