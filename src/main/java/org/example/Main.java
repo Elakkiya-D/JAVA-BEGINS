@@ -1,27 +1,33 @@
 package org.example;
-import java.lang.Math;
-
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        //math class
-        double a=36.898;
-        double b=789.8899;
-        System.out.println(Math.max(a,b));
-        double z=Math.min(a,b);
+        Random random=new Random();
+        //Scanner scan = new Scanner(System.in);
+//        System.out.println("any random number:");
+//        int y=scan.nextInt();
+
+        int x=random.nextInt();
+        double y= random.nextDouble();
+        float a=random.nextFloat();
+        String z=random.toString();
+        long b=random.nextLong();
+        boolean c=random.nextBoolean();
+        System.out.println(y);
+        System.out.println(x);
         System.out.println(z);
-        int c=-6874;
-        double w=Math.abs(c);
-        System.out.println(w);
-        double results =Math.random();
-        System.out.println(results);
-        int result= (int) (Math.random()*100);
-        System.out.println(result);
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
 
-        System.out.println(Math.sqrt(c));
 
-        //min,max,random,round,sqrt
+
+
+
+
+
 
 
     }
