@@ -8,12 +8,19 @@ public class Main {
         Scanner scan =new Scanner(System.in);
         System.out.println("enter your age:");
         int age = scan.nextInt();
-        if (age<18){
-            System.out.println("your not eligible to vote");
+        if (age >18){
+            System.out.println("your an adult");
+        }
+        else if (age==18) {
+            System.out.println("your 18");
+
         }
         else{
-            System.out.println("your eligible to vote");
+            System.out.println("your not an adult");
         }
+        int income =1200000;
+        boolean hashighincome=(income>10000);
+        System.out.println(hashighincome);
 
 
 
