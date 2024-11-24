@@ -4,17 +4,16 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//lift and right shift operator
-        int a=10;
-        int b=20;
-        System.out.println(a<<b);
-        System.out.println(b>>a);
-        System.out.println(a&b);
-        //here binary values are to be used
-        System.out.println(a|b);
 
-
-
+        Scanner scan =new Scanner(System.in);
+        System.out.println("enter your age:");
+        int age = scan.nextInt();
+        if (age<18){
+            System.out.println("your not eligible to vote");
+        }
+        else{
+            System.out.println("your eligible to vote");
+        }
 
 
 
