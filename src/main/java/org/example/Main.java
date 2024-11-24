@@ -1,24 +1,16 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-System.out.println("Sri rama Jayam");
-//Explicit Type Casting
-float a= 5.0F;
-int b=(int)a;
-System.out.println(b);
-double d=99778.667;
-long l=(long)d;
-
-//Implicit Type Casting
-System.out.println(l);
-int c=88;
-float f=c;
-System.out.println(f);
-
-long g= 6735678L;
-double h=g;
-System.out.println(h);
+//convert lower to upper
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter a lower case letter");
+        char lower=scan.next().charAt(0);
+        // char lower='b';
+        char upper =(char)(lower-32);
+        System.out.println("upper:"+upper);
 
 
     }
